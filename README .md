@@ -2,8 +2,6 @@
 
 A simple web-based chatbot UI where users can type a general health-related question and get an AI-generated response. Built as a single Flask-rendered HTML page with a clean, card-style interface.
 
-> **Note:** Only the frontend template (`index.html`) was provided for this README. I don't have the Flask backend (routes, model/API calls) — the sections below on setup and "how it works" are inferred from the template's `method="POST"` form and the `{% if answer %}` Jinja block. Update the setup steps once you share `app.py` (or equivalent).
-
 ## What it does
 
 - Presents a single text area where a user can type a health-related question (e.g. *"I have a sore throat and mild fever. What should I do?"*)
